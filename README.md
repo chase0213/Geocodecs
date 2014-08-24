@@ -28,7 +28,7 @@ import Geocodecs
 ```
 geo = Geocodecs()
 ```
-- get url from address
+- get url from address (addresses can be Kanji character)
 ```
 url = geo.geocoding_from_address(address="Yokohama")
 ```
