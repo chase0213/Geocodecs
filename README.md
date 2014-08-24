@@ -16,17 +16,17 @@ Installation
 ```
 git clone git@github.com:chase0213/Geocodecs.git
 ```
+2. install using setuptools
+```
+cd Geocodecs && python3 setup.py install
+```
 
 How to Use
 ----------
 
 - import this class into your project:
 ```
-import Geocodecs
-```
-- create Geocodecs instance
-```
-geo = Geocodecs()
+import geocodecs.geocodecs as geo
 ```
 - get url from address (addresses can be Kanji character)
 ```

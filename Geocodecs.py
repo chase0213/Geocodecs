@@ -9,7 +9,7 @@ import codecs
 BASE_URL = "https://maps.googleapis.com/maps/api/geocode/"
 
 
-class Geocodecs():
+class Geocodecs:
     """
     Geocodecs provides translator from address/geocoding into geocoding/address
     using Google Maps API v3.
