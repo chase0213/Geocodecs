@@ -36,8 +36,8 @@ def request_with_url(url):
 
 
 def get_location(json_obj):
-    return json_obj['results']['geometry']['location']
+    return json_obj['results'][0]['geometry']['location']
 
 
 def get_formatted_address(json_obj):
-    return json_obj['results']['formatted_address']
+    return json_obj['results'][0]['formatted_address']
